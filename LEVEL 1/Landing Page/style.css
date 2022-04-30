@@ -1,0 +1,550 @@
+@charset "utf-8";
+/*css Documennt */
+@import url('https://fonts.googleapis.com/css?family=ubuntu :400, 700');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #e6e6e6;
+}
+
+#header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background: #FF5733;
+ 
+}
+#wrap{
+    margin-top: 90px;
+}
+#up_head{
+    width: 100%;
+    height: 30px;
+    background:#900C3F;
+    padding-left: 7%;
+    padding-right: 7%;
+    box-sizing: border-box;
+}
+#link{
+    color: #fff;
+    width: 33%;
+    float: left;
+    height: 30px;
+}
+#link ul{
+    color: #fff;
+    list-style-type: none;
+   
+}
+#link ul li{
+    color: #fff;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+#link ul li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 14px;
+}
+#link ul li a i{
+    font-size: 18px;
+}
+#slog{
+    color: #fff;
+    width: 24%;
+    float: left;
+    height: 30px;
+    text-align: center;
+}
+#slog p{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    
+}
+#logout{
+    color: #fff;;
+   width: 10%;
+    float: right;
+    height: 30px;
+    text-align: right;
+}
+#logout p{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    
+}
+#logout p a{
+    color: #fff;
+    text-decoration: none;
+}
+#title{
+    width: 20%;
+    height: 60px;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+#title h2{
+    text-align: center;
+    font-weight: normal;
+}
+#title h2 a{
+    line-height: 60px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 4px 4px 4px #000;
+}
+#search{
+    width: 50%;
+    height: 60px;
+    float: left;
+    padding-left: 1.7%;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+#search form input{
+    border-width: 0px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left: 4%;
+    box-sizing: border-box;
+    margin-top: 2%;
+    width: 90%;
+    height: 30px;
+    background: #fff;
+    outline: none;
+}
+#search form button{
+    cursor: pointer;
+    margin-left: -2%;
+    border-width: 0px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-sizing: border-box;
+    margin-top: 2%;
+    width: 8%;
+    height: 30px;
+    background: #fff;
+    outline: none;
+}
+#search form button:hover{background: #e6e6e6;}
+
+#home:hover{
+    background: #fff;
+    color: #FF5733;
+}
+
+#home{
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    width: 10%;
+    height: 60px;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+#home h4{
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+}
+
+#login:hover{
+    background: #fff;
+    color: #FF5733;
+}
+#login{
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    width: 10%;
+    height: 60px;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+#login h4{
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+}
+#login:hover form{visibility: visible; opacity: 1 ;}
+#login form{
+    transition:all 0.3s ease-in-out;
+    visibility: hidden; 
+    opacity: 0; 
+    padding: 2%; 
+    box-sizing: border-box;
+    position: absolute;
+    background: #fff;
+    width:30%; 
+    margin-left:-20%;
+}
+#login form h3{
+    margin-bottom:0%;
+     border-radius:100%; 
+     width:100px ;
+     height:100px;
+     background: #FF5733; 
+     text-align: center;
+     color:#fff; 
+     line-height: 100px; 
+     font-size:30px;
+} 
+#login form h4{
+    color:#FF5733;
+    font-weight: normal; 
+    font-size: 30px;
+}
+#login form h5{
+    cursor:pointer;
+    float:right;
+    font-weight: normal;
+    color:#FF5733; 
+    margin:4% 0%  6% 0%;
+    font-size:14px
+}
+#login form center button{
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+    color: #fff;width:100%;
+    height: 35px; 
+    outline:none; 
+    border-width:0px; 
+    background: #FF5733;
+    border-radius:30px;
+}
+#login form center button:hover{
+    border-radius:0px;
+}
+#input_f{
+    width: 100%; 
+    border-bottom:1px solid rgba(0,0,0,0.2); 
+    height:40px; 
+    line-height:40px; 
+    margin-bottom:2%
+}
+#input_f input{
+    background: none; 
+    outline: none; 
+    border-width:0px;
+}
+#input_f i{
+    width:10%; 
+    color:#FF5733
+} 
+
+#signup:hover{
+    background: #fff;
+    color: #FF5733;
+}
+#signup{
+    color: #fff;
+    width: 10%;
+    height: 60px;
+    float: left;
+   
+}
+#signup h4{
+    cursor: pointer;
+ 
+    line-height: 60px;
+    text-align: center;
+}
+#signup:hover form{visibility: visible; opacity: 1 ;}
+#signup form{
+    transition:all 0.3s ease-in-out;
+    visibility: hidden; 
+    opacity: 0; 
+    padding: 2%; 
+    box-sizing: border-box;
+    position: absolute;
+    background: #fff;
+    width:30%; 
+    margin-left:-20%;
+}
+#signup form h3{
+    margin-bottom:0%;
+     border-radius:100%; 
+     width:100px ;
+     height:100px;
+     background: #FF5733; 
+     text-align: center;
+     color:#fff; 
+     line-height: 100px; 
+     font-size:30px;
+} 
+#signup form h4{
+    color:#FF5733;
+    font-weight: normal; 
+    font-size: 30px;
+}
+#signup form h5{
+    cursor:pointer;
+    float:right;
+    font-weight: normal;
+    color:#FF5733; 
+    margin:4% 0%  6% 0%;
+    font-size:14px
+}
+#signup form center button{
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+    color: #fff;width:100%;
+    height: 35px; 
+    outline:none; 
+    border-width:0px; 
+    background: #FF5733;
+    border-radius:30px;
+}
+#signup form center button:hover{
+    border-radius:0px;
+}
+
+#slider{
+    width: 100%;
+    height: 400px;
+}
+#slider img{
+    width: 100%;
+    height: 400px;
+}
+
+#top_course{
+    margin-top: -4%;
+    width: 100%;
+    padding: 0% 5% 2% 3%;
+    box-sizing: border-box;
+}
+#top_course h2{
+    font-size: 30px;
+    text-align: center;
+    color: #FF5733;
+    font-weight: normal;
+}
+#top_course ul{
+    list-style-type: none;
+}
+#top_course ul li{
+    margin-top: 2%;
+    height: 250px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 18%;
+    padding: 1%;
+    box-sizing: border-box;
+    background: #fff;
+    float: left;
+}
+#top_course ul li a{
+    text-decoration: none;
+}
+#top_course ul li a img{
+    width: 100%;
+    height: 150px;
+}
+#top_course ul li a h3{
+    color:#900C3F;
+    font-size: 20px;
+    margin-top: 3%;
+    font-weight: 400;
+}
+#top_course ul li a h4{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #FF5733;
+    font-size: 18px;
+    font-weight: normal;
+}
+#top_course ul li:hover{
+    transform: scale(1.1);
+}
+
+#crumb{
+    height:35px;
+    line-height: 30px;
+    font-size: 14px;
+    width:96%; margin: 0% 2% 1% 2% ;
+    box-shadow: 0px 0px 20px #ccc;
+    padding-left:  2%; 
+    padding-right: 2%; 
+    box-sizing: border-box; 
+    background: #fff;
+}
+#crumb span{
+    color:#900C3F;
+   margin-right : 1%; margin-left:0.5%;
+}
+
+#crumb span a{
+    text-decoration:none; color:#06f
+}
+#crumb span a:hover{
+    text-decoration: underline;
+}
+#crumb b{
+font-weight: normal;
+color:#900C3F;
+}
+
+#footer{
+    height: 400px;
+    width: 100%;
+    background: #FF5733;
+}
+#footer ul{
+     list-style-type: none;
+     padding: 3% 5% 5% 5%;
+     box-sizing: border-box;
+}
+#footer ul li{
+    width: 33%;
+    float: left;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+#footer ul li h2{
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 10%;
+}
+#footer ul li h2 span{
+   border-bottom: 2px solid #1DA1F2;
+   padding-bottom: 1%;
+   box-sizing: border-box;
+}
+#footer ul li p{
+    color:#000;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 30px;
+    font-size: 18px;
+    
+}
+#footer ul li table{
+    width: 100%;
+    margin-bottom: 5% ;
+    font-weight: bold;
+    font-style: italic;
+}
+#footer ul li table tr td{
+    padding-bottom:  5%;
+    color:#000;
+    
+}
+#footer ul li table tr td:nth-child(1){
+    width: 10%;
+}
+#footer ul li table tr td i{
+    color: #1DA1F2;
+}
+#footer ul li form input::-webkit-input-placeholder{
+    font-size: 18px;
+    color: #000 !important;
+}
+#footer ul li textarea{
+    color: #fff;
+    resize: none;
+    border-radius: 3px;
+    height: 80px;
+    padding: 5%;
+    box-sizing: border-box;
+    border-width: 0px;
+    background:#900C3F;
+    outline: none;
+    width: 100%;
+}
+#footer ul li textarea::-webkit-input-placeholder{
+    font-size: 18px;
+    color:#000 !important;
+}
+#footer ul li button{
+    float: right;
+    border-radius: 3px;
+    margin-top: 2%;
+    width: 40%;
+    height: 35px;
+    cursor: pointer;
+    border-width: 0px;
+    outline: none;
+    background: #1DA1F2;
+    color: #fff;
+}
+#footer h3{
+    background: #2e2e2e;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#f_input{
+    border-radius: 3px;
+    font-size: 14px;
+    width: 100%;
+    height: 30px;
+    background: #77889e;
+    margin-bottom: 2%;
+}
+#f_input i{
+    width: 10%;
+    color: #FF5733;
+    text-align: center;
+}
+#f_input input{
+    color: #fff;
+    border-width: 0px;
+    background: none;
+    outline: none;
+    height: 30px;
+    width: 88%;
+}
+#footer ul li input::-webkit-input-placeholder{
+    color:#FF5733 !important;
+}
+
+#fb{
+    background: #3B5998;
+}
+#insta{
+    background: #5851DB ;
+}
+#whats{
+    background: #5851DB ;
+}
+#f_share{
+    width: 100%;
+    margin-top: -5%;
+}
+#f_share div{
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    margin: 0% 1% 0% 1%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    border-radius: 100%;
+}
+#f_share div a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+#f_share div:hover{
+    border-radius: 0px;
+    background: #2e2e2e;
+}
